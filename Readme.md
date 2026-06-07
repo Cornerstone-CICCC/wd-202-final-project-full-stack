@@ -176,7 +176,7 @@ Recommended priority:
 
 ## Presentation Requirements
 
-Each team must present for **10-15 minutes**.
+Each team must present for about **~15 minutes**. (QA Time 5-10mins additional)
 
 Start your presentation with the **live demo first**. After the demo, explain the rest of the project.
 
@@ -213,3 +213,5 @@ Your final project will be evaluated based on:
 * Teamwork
 * Error handling
 * Presentation quality
+
+> GOOD Luck! 
