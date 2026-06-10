@@ -36,7 +36,7 @@ Your app should feel like a real product with users, protected pages, real-time 
 
 ## Project Options
 
-Pick **one** project. Two teams may choose the same one.
+Pick **one** project. Two teams may choose the same one. The features listed are a starting point — feel free to add your own on top, and design the UI however you like.
 
 ### 1. Real-Time Chat App
 
