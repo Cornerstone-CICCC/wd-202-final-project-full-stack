@@ -6,6 +6,8 @@ This final project will help you build a full stack web application using Node.j
 
 Teams: **4-5 students**
 
+> Once teams are created, there are no more changes to team membership.
+
 ## Submission Checklist
 
 * Push your final code to GitHub.
@@ -28,52 +30,64 @@ Build a full stack web application using:
 * WebSockets for at least one real-time feature
 * `.env` for configuration and secrets
 * Server-memory data storage
-* At least one external API call
+* (Optional) One external API call — free APIs only
 
 Your app should feel like a real product with users, protected pages, real-time interaction, and a clear purpose.
 
-## Project Idea Options
+## Project Options
 
-Choose one idea, or propose your own with instructor approval:
+Pick **one** project. Two teams may choose the same one.
 
-* **Real-Time Chat App**
+### 1. Real-Time Chat App
 
-  * Users log in, join rooms, send live messages, and see online users.
+Log in and chat one-on-one or in group rooms.
 
-* **Live Classroom Q&A App**
+* Direct messages and group rooms; create / join / leave rooms
+* Online-users list and typing indicators
+* Message history kept in server memory
+* **Real-time:** live messages, presence, and typing indicators
+* **Optional API:** GIPHY (GIFs) or LibreTranslate (translate messages)
 
-  * Students submit questions live.
-  * Teachers can pin, answer, or remove questions.
+### 2. Customer Support Live Chat
 
-* **Multiplayer Quiz Game**
+Visitors open a support chat; logged-in admins reply.
 
-  * A host creates a quiz room.
-  * Players join using a room code.
-  * Leaderboard updates in real time.
+* Visitors are anonymous (no login). Only admins log in — the admin dashboard is the protected page.
+* Public chat widget to start a chat
+* Admin dashboard with a live queue of incoming chats
+* Any admin can open a chat and reply; status: open → closed
+* **Real-time:** visitor messages appear on the dashboard instantly; live two-way chat
+* **Optional API:** ip-api.com (visitor location / timezone)
 
-* **Collaborative Task Board**
+### 3. Food Ordering Dashboard
 
-  * Users create tasks, assign members, and update task status live.
+Order from a menu; orders appear on a live kitchen board.
 
-* **Customer Support Live Chat**
+* Menu with items and prices; cart with server-side validation
+* Order history
+* Kitchen board grouped by status
+* **Real-time:** new orders appear instantly; status updates (Received → Preparing → Ready) push back to the customer
+* **Optional API:** TheMealDB (menu items and photos)
 
-  * Customers start support chats.
-  * Agents respond in real time.
+### 4. Live Auction House
 
-* **Food Ordering Dashboard**
+List items and bid; the highest bid and countdown update live.
 
-  * Customers place orders.
-  * Admin or kitchen dashboard receives orders instantly.
+* Browse auctions (item, current price, time left)
+* Place bids (server checks the bid beats the current one)
+* Countdown timer; auto-close and declare a winner; outbid alerts
+* **Real-time:** live bid and countdown updates; outbid and winner notifications
+* **Optional API:** Frankfurter (currency) or Unsplash (images)
 
-* **Live Auction App**
+### 5. Social Media / Blog Feed
 
-  * Users place bids in real time.
-  * Highest bid updates instantly.
+Log in, write blog posts, and see them on a shared feed.
 
-* **Event Check-In System**
-
-  * Admin checks in guests.
-  * Attendance dashboard updates live.
+* Create posts (title + body); feed of posts, newest first
+* Profile pages; follow / unfollow; likes and comments
+* **Real-time:** new posts and notifications appear on the feed live
+* **Bonus:** attach images to posts; curate the feed by who you follow
+* **Optional API:** Unsplash (images) or DiceBear (avatars)
 
 ## Minimum Requirements
 
@@ -102,6 +116,7 @@ Your project must include:
 * Session cookies
 * Protected routes
 * User-specific dashboard or page
+* All logged-in users have the same permissions — no admin or role tiers (keep it simple)
 
 ### WebSockets
 
@@ -124,8 +139,8 @@ Use WebSockets for at least one meaningful real-time feature, such as:
 
 **API Calling**
 
-* You may use at least one external API where appropriate.
-* You may use any free public API.
+* Using an external API is **optional**.
+* If you use one, it must be a **free** public API.
 
 **Environment Variables**
 
@@ -202,11 +217,11 @@ Your final project will be evaluated based on:
 
 * Functionality
 * Full stack structure
+* Project structure (clean MVC organization)
 * Authentication
 * WebSocket implementation
-* API integration
-* MVC organization
-* Code quality
+* API integration (if used)
+* Code quality and readability
 * UI/UX
 * Responsiveness
 * GitHub contribution history
@@ -214,4 +229,4 @@ Your final project will be evaluated based on:
 * Error handling
 * Presentation quality
 
-> GOOD Luck! 
+> GOOD Luck!
