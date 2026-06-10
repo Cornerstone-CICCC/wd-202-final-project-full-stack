@@ -21,19 +21,27 @@ Teams: **4-5 students**
 
 ## The Challenge
 
-Build a full stack web application using:
+Build a full stack web app that feels like a real product — real users, protected pages, and live real-time interaction. Your project must include:
 
-* Astro frontend
-* Node.js and Express backend
-* Tailwind CSS
-* MVC pattern
-* Session-based authentication using cookies
-* WebSockets for at least one real-time feature
-* `.env` for configuration and secrets
-* Server-memory data storage
-* (Optional) One external API call — free APIs only
+**Frontend** — Astro with multiple pages/views, Tailwind CSS, responsive design, and clean components.
 
-Your app should feel like a real product with users, protected pages, real-time interaction, and a clear purpose.
+**Backend** — Node.js + Express in MVC: separate routes, controllers, and data/model files, with server-side validation on important forms.
+
+**Authentication** — registration, login, and logout using session cookies; protected routes and a user-specific page. All logged-in users have the same permissions — no admin or role tiers (keep it simple).
+
+**WebSockets** — at least one meaningful real-time feature (e.g. live chat, notifications, leaderboard, order/task updates, or voting/polling).
+
+**Data** — no database required; store data in server memory (arrays/objects). It is fine if data resets when the server restarts.
+
+**External API (optional)** — optional, and only free public APIs if you use one.
+
+**Environment Variables** — use `.env` for secrets/config, never commit it, and include a `.env.example`:
+
+```txt
+PORT=3000
+SESSION_SECRET=your_session_secret_here
+API_KEY=your_api_key_here
+```
 
 ## Project Options
 
@@ -89,73 +97,6 @@ Log in, write blog posts, and see them on a shared feed.
 * **Real-time:** new posts and notifications appear on the feed live
 * **Bonus:** attach images to posts; curate the feed by who you follow
 * **Optional API:** Unsplash (images) or DiceBear (avatars)
-
-## Minimum Requirements
-
-Your project must include:
-
-### Frontend
-
-* Astro frontend
-* Multiple pages or views
-* Tailwind CSS styling
-* Responsive design
-* Clean component structure
-
-### Backend
-
-* Node.js and Express backend
-* MVC structure
-* Separate routes, controllers, and data/model files
-* Server-side validation for important forms
-
-### Authentication
-
-* User registration
-* User login
-* User logout
-* Session cookies
-* Protected routes
-* User-specific dashboard or page
-* All logged-in users have the same permissions — no admin or role tiers (keep it simple)
-
-### WebSockets
-
-Use WebSockets for at least one meaningful real-time feature, such as:
-
-* Live chat
-* Live notifications
-* Live leaderboard
-* Live order updates
-* Live task updates
-* Live voting or polling
-
-### Other Requirements
-
-**Data**
-
-* A database is **not required**.
-* Data may be stored in server memory using arrays or objects.
-* It is acceptable if data resets when the server restarts.
-
-**API Calling**
-
-* Using an external API is **optional**.
-* If you use one, it must be a **free** public API.
-
-**Environment Variables**
-
-* Use `.env` for secrets or config values.
-* Do not commit `.env` to GitHub.
-* Include a `.env.example` file with placeholder values.
-
-Example:
-
-```txt
-PORT=3000
-SESSION_SECRET=your_session_secret_here
-API_KEY=your_api_key_here
-```
 
 ## Time Management
 
@@ -229,6 +170,7 @@ Your final project will be evaluated based on:
 * Teamwork
 * Error handling
 * Presentation quality
+* **Deploying your Full Stack Project will be a huge BONUS**
 
 > ⚠️ You may use AI but be sure to know what code you are committing, as failure to explain your work in the presentation will be cost you marks!
 
