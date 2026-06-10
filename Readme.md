@@ -1,12 +1,13 @@
 # WAD202 Final Project - Full Stack Real-Time Web App
 
-**Welcome!**
-
 This final project will help you build a full stack web application using Node.js, Express, Astro, authentication, API calls, and WebSockets.
 
 Teams: **4-5 students**
 
 > Once teams are created, there are no more changes to team membership.
+> Once a project is chosen, teams cannot alter decision.
+
+> You SHOULD consult with your instructor before choosing a project.
 
 ## Submission Checklist
 
@@ -229,4 +230,6 @@ Your final project will be evaluated based on:
 * Error handling
 * Presentation quality
 
-> GOOD Luck!
+> ⚠️ You may use AI but be sure to know what code you are committing, as failure to explain your work in the presentation will be cost you marks!
+
+> Best of Luck!
